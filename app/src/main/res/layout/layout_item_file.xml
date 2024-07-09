@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_fileItem"
+    android:layout_width="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="30dp"
+
+    android:gravity="center"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/iv_fileImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/tv_fileName"
+        android:layout_width="wrap_content"
+        android:layout_margin="10dp"
+        android:textColor="#FF9800"
+        android:layout_height="wrap_content"/>
+
+
+    <!--
+        <TextView
+            android:id="@+id/tv_fileSize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#009688"/>
+
+        <TextView
+            android:id="@+id/tv_fileType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/tv_lastTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>-->
+
+
+
+</LinearLayout>
